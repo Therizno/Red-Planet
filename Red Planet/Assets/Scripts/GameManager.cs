@@ -45,6 +45,17 @@ public class GameManager : MonoBehaviour
     }
 
 
+    //getters and setters
+
+
+    public float getDistanceFromPlayer(GameObject g)
+    {
+        float relX = player.transform.position.x - g.transform.position.x;
+        float relY = player.transform.position.y - g.transform.position.y;
+
+        return Mathf.Sqrt((relX * relX) + (relY * relY));
+    }
+
     public bool isPlayerJumping()
     {
         return playerMovement.isJumping();
@@ -58,5 +69,18 @@ public class GameManager : MonoBehaviour
     public float getPlayerJumpSpeed()
     {
         return playerMovement.getJumpSpeed();
+    }
+
+    public float getPlayerX()
+    {
+        return player.transform.position.x;
+    }
+    public float getPlayerY()
+    {
+        return player.transform.position.y;
+    }
+    public float getPlayerZ()
+    {
+        return player.transform.position.z;
     }
 }
