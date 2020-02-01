@@ -513,6 +513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runAnimMultiplier: 5
   jumpAnimMultiplier: 3
+  idleAnimSpeed: 0.25
 --- !u!1 &1856137839
 GameObject:
   m_ObjectHideFlags: 0

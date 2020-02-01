@@ -9,6 +9,7 @@ public class PlayerAnimation : MonoBehaviour
 
     [SerializeField] private float runAnimMultiplier;
     [SerializeField] private float jumpAnimMultiplier;
+    [SerializeField] private float idleAnimSpeed;
 
 
     private Animator anim;
@@ -27,6 +28,8 @@ public class PlayerAnimation : MonoBehaviour
     {
         anim.SetBool("jumping", gm.isPlayerJumping());
         anim.SetFloat("speed", gm.getPlayerSpeed() * runAnimMultiplier);
+        anim.SetBool("isMoving", gm.getPlayerSpeed() > 0);
         anim.SetFloat("jumpSpeed", gm.getPlayerJumpSpeed() * jumpAnimMultiplier);
+        anim.SetFloat("idleSpeed", idleAnimSpeed);
     }
 }
