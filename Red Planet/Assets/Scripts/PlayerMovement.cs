@@ -27,10 +27,10 @@ public class PlayerMovement : MonoBehaviour
         float vertInput = Mathf.Max(Input.GetAxis("Vertical"), Input.GetAxis("Jump"));
 
         //calculate move direction
-        Vector2 movement = new Vector2(horzInput + transform.position.x, jumpModifier(vertInput) + transform.position.y);
+        Vector2 movement = new Vector2(horzInput * speed, jumpModifier(vertInput));
 
         //actually move the player
-        transform.position = Vector2.MoveTowards(transform.position, movement, speed);
+        transform.Translate(movement);
 
     }
 

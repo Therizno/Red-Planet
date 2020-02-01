@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.15
-  jumpSpeed: 0.5
+  jumpSpeed: 0.15
   jumpLength: 0.25
   jumpCooldown: 0.5
 --- !u!61 &921400362
