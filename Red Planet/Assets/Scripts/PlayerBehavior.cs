@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
+    List<GameObject> inventoryItems;
+
+
+    void Awake()
+    {
+        inventoryItems = new List<GameObject>();
+    }
+
+    // Start is called after awake (use for getting other objects)
     void Start()
     {
         
@@ -14,5 +22,10 @@ public class PlayerBehavior : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void addToInventory(GameObject item)
+    {
+
     }
 }

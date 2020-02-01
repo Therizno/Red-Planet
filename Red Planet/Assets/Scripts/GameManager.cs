@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject player;
 
     private PlayerMovement playerMovement;
+    private PlayerBehavior playerBehavior;
 
 
     //singleton methods
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         playerMovement = player.GetComponent<PlayerMovement>();
+        playerBehavior = player.GetComponent<PlayerBehavior>();
     }
 
     // Update is called once per frame
@@ -47,6 +49,10 @@ public class GameManager : MonoBehaviour
 
     //getters and setters
 
+    public void addToPlayerInventory(GameObject item)
+    {
+        playerBehavior.addToInventory(item);
+    }
 
     public float getDistanceFromPlayer(GameObject g)
     {
