@@ -82,4 +82,11 @@ public class PlayerMovement : MonoBehaviour
             playerSprite.flipX = true; 
         }
     }
+
+
+    //setters and getters
+    public bool isJumping()
+    {
+        return jumping;
+    }
 }
