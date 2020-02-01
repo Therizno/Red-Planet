@@ -19,12 +19,12 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // FixedUpdate is called once per fixed length of time 
     void FixedUpdate()
     {
         //get raw input 
         float horzInput = Input.GetAxis("Horizontal");
-        float vertInput = Input.GetAxis("Vertical");
+        float vertInput = Mathf.Max(Input.GetAxis("Vertical"), Input.GetAxis("Jump"));
 
         //calculate move direction
         Vector2 movement = new Vector2(horzInput + transform.position.x, jumpModifier(vertInput) + transform.position.y);
