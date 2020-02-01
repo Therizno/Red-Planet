@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpCooldown;
 
     private SpriteRenderer playerSprite;
+    private Rigidbody2D rgbd;
 
     private bool jumping;
     private float timeInAir;
@@ -20,6 +21,10 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerSprite = GetComponent<SpriteRenderer>();
+        rgbd = GetComponent<Rigidbody2D>();
+
+        // keep the player upright 
+        rgbd.freezeRotation = true;
     }
 
     // FixedUpdate is called once per fixed length of time 
