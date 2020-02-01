@@ -9,14 +9,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpLength;
     [SerializeField] private float jumpCooldown;
 
+    private SpriteRenderer playerSprite;
+
     private bool jumping;
     private float timeInAir;
     private float timeSinceLand;
 
-    // Start is called before the first frame update
+    //Start is called right after Awake, and is for interaction with other objects
     void Start()
     {
-        
+        playerSprite = GetComponent<SpriteRenderer>();
     }
 
     // FixedUpdate is called once per fixed length of time 
@@ -25,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
         //get raw input 
         float horzInput = Input.GetAxis("Horizontal");
         float vertInput = Mathf.Max(Input.GetAxis("Vertical"), Input.GetAxis("Jump"));
+
+        //face the player sprite the movement direction
+        flipSprite(horzInput); 
 
         //calculate move direction
         Vector2 movement = new Vector2(horzInput * speed, jumpModifier(vertInput));
@@ -64,5 +69,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
         return yMove;
+    }
+
+    private void flipSprite(float horzInput)
+    {
+        if (horzInput > 0)
+        {
+            playerSprite.flipX = false;
+        }
+        else if (horzInput < 0)
+        {
+            playerSprite.flipX = true; 
+        }
     }
 }
