@@ -16,10 +16,11 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //get raw input 
-        float horzInput = Input.GetAxis("Horizontal"); 
+        float horzInput = Input.GetAxis("Horizontal");
+        float vertInput = Input.GetAxis("Vertical");
 
         //calculate move direction
-        Vector2 movement = new Vector2(horzInput + transform.position.x, transform.position.y);
+        Vector2 movement = new Vector2(horzInput + transform.position.x, (vertInput > 0? vertInput : 0) + transform.position.y);
 
         //actually move the player
         transform.position = Vector2.MoveTowards(transform.position, movement, speed);
