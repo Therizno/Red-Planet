@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private bool jumping;
     private float timeInAir;
     private float timeSinceLand;
+    private float moveSpeed;
 
     //Start is called right after Awake, and is for interaction with other objects
     void Start()
@@ -33,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
 
         //calculate move direction
         Vector2 movement = new Vector2(horzInput * speed, jumpModifier(vertInput));
+
+        //record the movement speed
+        moveSpeed = movement.magnitude;
 
         //actually move the player
         transform.Translate(movement);
@@ -88,5 +92,15 @@ public class PlayerMovement : MonoBehaviour
     public bool isJumping()
     {
         return jumping;
+    }
+
+    public float getMoveSpeed()
+    {
+        return moveSpeed;
+    }
+
+    public float getJumpSpeed()
+    {
+        return jumpSpeed;
     }
 }

@@ -49,4 +49,14 @@ public class GameManager : MonoBehaviour
     {
         return playerMovement.isJumping();
     }
+
+    public float getPlayerSpeed()
+    {
+        return playerMovement.getMoveSpeed();
+    }
+
+    public float getPlayerJumpSpeed()
+    {
+        return playerMovement.getJumpSpeed();
+    }
 }
