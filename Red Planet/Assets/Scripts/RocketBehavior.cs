@@ -8,10 +8,12 @@ public class RocketBehavior : MonoBehaviour
 
     [SerializeField] private GameObject missingPlates;
     [SerializeField] private GameObject damagedThrusters;
-    [SerializeField] private GameObject sensor; 
+    [SerializeField] private GameObject sensor;
 
 
-    [SerializeField] private float rocketItemPickupDistance;
+    [SerializeField] private float rocketSpeed;
+    [SerializeField] private float rocketTravelTime;
+    [SerializeField] private float rocketItemPickupDistance; 
 
 
     [SerializeField] private ItemType itemReq1;
@@ -27,8 +29,10 @@ public class RocketBehavior : MonoBehaviour
     [SerializeField] private int itemReqNum4;
 
 
-
     private Dictionary<ItemType, int> repairPieces;
+
+
+    private float travelledTime;
 
     // Awake is called before the first frame update
     void Awake()
@@ -47,14 +51,32 @@ public class RocketBehavior : MonoBehaviour
         gm = GameManager.getInstance();
     }
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is called once per fixed amount of time
+    void FixedUpdate()
     {
         takePlayerItems();
 
         updateSprites();
+
+        if (isLaunchReady())
+        {
+            launch();
+        }
     }
 
+    private void launch()
+    {
+        if (travelledTime < rocketTravelTime)
+        {
+            transform.Translate(new Vector2(transform.position.x, transform.position.y + rocketSpeed));
+        }
+        else
+        {
+            Time.timeScale = 0;
+        }
+
+        travelledTime += Time.deltaTime; 
+    }
 
     private void takePlayerItems()
     {
@@ -80,6 +102,18 @@ public class RocketBehavior : MonoBehaviour
             repairPieces[itemTypeRemoved]--; 
         }
         
+    }
+
+    public bool isLaunchReady()
+    {
+        bool itemsReqsFilled = true;
+
+        foreach (KeyValuePair<ItemType, int> pair in repairPieces)
+        {
+            itemsReqsFilled = itemsReqsFilled && pair.Value == 0; 
+        }
+
+        return itemsReqsFilled;
     }
 
     private void updateSprites()
