@@ -6,18 +6,32 @@ public class HUDManager : MonoBehaviour
 {
     [SerializeField] GameObject player;
 
-    PlayerBehavior playerBehavior;
+    [SerializeField] string inventoryHUDObjectName;
+
+
+    private TextMesh inventory;
+
+    private PlayerBehavior playerBehavior;
 
     //Awake is called before the first frame update
     void Awake()
     {
-        
+
     }
 
     // Start is called before the first frame update (use for getting other objects)
     void Start()
     {
         playerBehavior = player.GetComponent<PlayerBehavior>();
+
+        //get HUD objects 
+        foreach (Transform child in transform)
+        {
+            if (child.gameObject.name == inventoryHUDObjectName)
+            {
+                inventory = child.gameObject.GetComponent<TextMesh>();
+            }
+        }
     }
 
     // Update is called once per frame
