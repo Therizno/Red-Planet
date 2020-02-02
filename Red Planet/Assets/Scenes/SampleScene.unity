@@ -680,7 +680,7 @@ MonoBehaviour:
   missingPlates: {fileID: 44025353}
   damagedThrusters: {fileID: 2008084201}
   sensor: {fileID: 83778288}
-  rocketSpeed: 1
+  rocketSpeed: 0.25
   rocketTravelTime: 3
   rocketItemPickupDistance: 3.5
   itemReq2: 1
@@ -3839,7 +3839,7 @@ GameObject:
   - component: {fileID: 1760031713}
   - component: {fileID: 1760031715}
   m_Layer: 0
-  m_Name: Rock
+  m_Name: Rock 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

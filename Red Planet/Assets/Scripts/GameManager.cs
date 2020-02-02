@@ -82,6 +82,12 @@ public class GameManager : MonoBehaviour
         player.transform.position = vect;
     }
 
+    public void detachCameraFromPlayer()
+    {
+        GameObject plCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        plCamera.transform.parent = null;
+    }
+
 
 
     //getters and setters

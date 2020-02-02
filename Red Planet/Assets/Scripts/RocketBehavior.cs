@@ -41,7 +41,7 @@ public class RocketBehavior : MonoBehaviour
 
         //repairPieces.Add(itemReq1, itemReqNum1);
         repairPieces.Add(itemReq2, itemReqNum2);
-        //epairPieces.Add(itemReq3, itemReqNum3);
+        //repairPieces.Add(itemReq3, itemReqNum3);
         repairPieces.Add(itemReq4, itemReqNum4);
     }
 
@@ -74,7 +74,10 @@ public class RocketBehavior : MonoBehaviour
 
         gm.teleportPlayer(transform.position);
 
+        //drop the camera from the player
+        gm.detachCameraFromPlayer();
 
+        //move rocket, freeze time
         if (travelledTime < rocketTravelTime)
         {
             transform.Translate(new Vector2(0, rocketSpeed));
