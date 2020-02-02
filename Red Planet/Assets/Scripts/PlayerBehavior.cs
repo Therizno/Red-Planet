@@ -35,6 +35,7 @@ public class PlayerBehavior : MonoBehaviour
     }
 
 
+
     public void addToInventory(GameObject item)
     {
         inventoryItems.Add(item);

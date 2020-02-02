@@ -680,19 +680,13 @@ MonoBehaviour:
   missingPlates: {fileID: 44025353}
   damagedThrusters: {fileID: 2008084201}
   sensor: {fileID: 83778288}
-  rocketSpeed: 3
-  rocketTravelTime: 5
+  rocketSpeed: 0.25
+  rocketTravelTime: 3
   rocketItemPickupDistance: 3.5
-  itemReq1: 5
-  itemReqNum1: 1
   itemReq2: 1
   itemReqNum2: 3
-  itemReq3: 2
-  itemReqNum3: 1
   itemReq4: 0
   itemReqNum4: 2
-  itemReq5: 5
-  itemReqNum5: 1
 --- !u!1 &120158705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,7 +1028,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351238777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.367285, y: -13.357784, z: -889.74536}
+  m_LocalPosition: {x: 16.367285, y: -13.357784, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1165974541}
@@ -2977,7 +2971,7 @@ PrefabInstance:
     - target: {fileID: 6213801585272459519, guid: 499b1558cdca746d38a821d93b828a80,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.02802
+      value: 16.16
       objectReference: {fileID: 0}
     - target: {fileID: 6213801585272459519, guid: 499b1558cdca746d38a821d93b828a80,
         type: 3}
@@ -3492,12 +3486,12 @@ PrefabInstance:
     - target: {fileID: 6213801585272459519, guid: 499b1558cdca746d38a821d93b828a80,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35.13
+      value: 15.25
       objectReference: {fileID: 0}
     - target: {fileID: 6213801585272459519, guid: 499b1558cdca746d38a821d93b828a80,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.16
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6213801585272459519, guid: 499b1558cdca746d38a821d93b828a80,
         type: 3}
@@ -3706,7 +3700,7 @@ PrefabInstance:
     - target: {fileID: 7471931784396746959, guid: a1fcf80aaf87940c9b4b182c620b9418,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 889.74536
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7471931784396746959, guid: a1fcf80aaf87940c9b4b182c620b9418,
         type: 3}
@@ -3845,7 +3839,7 @@ GameObject:
   - component: {fileID: 1760031713}
   - component: {fileID: 1760031715}
   m_Layer: 0
-  m_Name: Rock
+  m_Name: Rock 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4977,7 +4971,7 @@ PrefabInstance:
     - target: {fileID: 7471931784396746959, guid: a1fcf80aaf87940c9b4b182c620b9418,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 889.74536
+      value: 175
       objectReference: {fileID: 0}
     - target: {fileID: 7471931784396746959, guid: a1fcf80aaf87940c9b4b182c620b9418,
         type: 3}
