@@ -16,14 +16,14 @@ public class RocketBehavior : MonoBehaviour
     [SerializeField] private float rocketItemPickupDistance; 
 
 
-    //[SerializeField] private ItemType itemReq1;
-    //[SerializeField] private int itemReqNum1;
+    [SerializeField] private ItemType itemReq1;
+    [SerializeField] private int itemReqNum1;
 
     [SerializeField] private ItemType itemReq2;
     [SerializeField] private int itemReqNum2;
 
-    //[SerializeField] private ItemType itemReq3;
-    //[SerializeField] private int itemReqNum3;
+    [SerializeField] private ItemType itemReq3;
+    [SerializeField] private int itemReqNum3;
 
     [SerializeField] private ItemType itemReq4;
     [SerializeField] private int itemReqNum4;
@@ -39,9 +39,9 @@ public class RocketBehavior : MonoBehaviour
     {
         repairPieces = new Dictionary<ItemType, int>();
 
-        //repairPieces.Add(itemReq1, itemReqNum1);
+        repairPieces.Add(itemReq1, itemReqNum1);
         repairPieces.Add(itemReq2, itemReqNum2);
-        //repairPieces.Add(itemReq3, itemReqNum3);
+        repairPieces.Add(itemReq3, itemReqNum3);
         repairPieces.Add(itemReq4, itemReqNum4);
     }
 
