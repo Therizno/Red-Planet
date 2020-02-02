@@ -516,7 +516,7 @@ MonoBehaviour:
   itemReq3: 2
   itemReqNum3: 1
   itemReq4: 0
-  itemReqNum4: 1
+  itemReqNum4: 2
 --- !u!1 &127090745
 GameObject:
   m_ObjectHideFlags: 0
