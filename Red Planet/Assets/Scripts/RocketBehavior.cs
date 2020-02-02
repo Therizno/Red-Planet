@@ -6,6 +6,11 @@ public class RocketBehavior : MonoBehaviour
 {
     private GameManager gm;
 
+    [SerializeField] private GameObject missingPlates;
+    [SerializeField] private GameObject damagedThrusters;
+    [SerializeField] private GameObject sensor; 
+
+
     [SerializeField] private float rocketItemPickupDistance;
 
 
@@ -45,7 +50,9 @@ public class RocketBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        takePlayerItems(); 
+        takePlayerItems();
+
+        updateSprites();
     }
 
 
@@ -73,5 +80,38 @@ public class RocketBehavior : MonoBehaviour
             repairPieces[itemTypeRemoved]--; 
         }
         
+    }
+
+    private void updateSprites()
+    {
+        //show or hide missing plates
+        if (repairPieces.ContainsKey(ItemType.Junk) && repairPieces[ItemType.Junk] > 0)
+        {
+            missingPlates.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else
+        {
+            missingPlates.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        //show or hide damaged thrusters
+        if (repairPieces.ContainsKey(ItemType.Bucket) && repairPieces[ItemType.Bucket] > 0)
+        {
+            damagedThrusters.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else
+        {
+            damagedThrusters.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        //show or hide damaged sensor
+        if (repairPieces.ContainsKey(ItemType.RoverSensor) && repairPieces[ItemType.RoverSensor] > 0)
+        {
+            sensor.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        else
+        {
+            sensor.GetComponent<SpriteRenderer>().enabled = true;
+        }
     }
 }

@@ -7,7 +7,7 @@ public class HUDManager : MonoBehaviour
 {
     [SerializeField] GameObject player;
 
-    [SerializeField] string inventoryHUDObjectName;
+    [SerializeField] GameObject inventoryHUDObject;
 
 
     private TMP_Text inventory;
@@ -25,14 +25,8 @@ public class HUDManager : MonoBehaviour
     {
         playerBehavior = player.GetComponent<PlayerBehavior>();
 
-        //get HUD objects 
-        foreach (Transform child in transform)
-        {
-            if (child.gameObject.name == inventoryHUDObjectName)
-            {
-                inventory = child.gameObject.GetComponent<TMP_Text>();
-            }
-        }
+        inventory = inventoryHUDObject.GetComponent<TMP_Text>();
+
     }
 
 
