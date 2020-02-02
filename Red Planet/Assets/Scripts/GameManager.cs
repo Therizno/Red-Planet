@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour
         {
             g = this;
         }
+
+        items = new List<GameObject>();
     }
     //end singleton methods
 

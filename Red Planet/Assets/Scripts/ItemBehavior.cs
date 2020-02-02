@@ -30,4 +30,9 @@ public class ItemBehavior : MonoBehaviour
 
         return !isPlayerCarrying && isPlayerNearby;
     }
+
+    public void toggleCarrying()
+    {
+        isPlayerCarrying = !isPlayerCarrying;
+    }
 }

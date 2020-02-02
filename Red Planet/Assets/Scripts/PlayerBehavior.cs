@@ -37,6 +37,33 @@ public class PlayerBehavior : MonoBehaviour
 
     public void addToInventory(GameObject item)
     {
+        inventoryItems.Add(item);
+        item.GetComponent<ItemBehavior>().toggleCarrying();
 
+        //pull item with player
+        item.transform.parent = transform;
+
+        toggleItemEnabled(item);
+
+    }
+
+    private void toggleItemEnabled(GameObject g)
+    {
+        BoxCollider2D coll = g.GetComponent<BoxCollider2D>();
+        Rigidbody2D rgbd = g.GetComponent<Rigidbody2D>();
+        SpriteRenderer sprt = g.GetComponent<SpriteRenderer>();
+
+        if (coll != null)
+        {
+            coll.enabled = !coll.enabled;
+        }
+        if (rgbd != null)
+        {
+            rgbd.isKinematic = !rgbd.isKinematic;
+        }
+        if (sprt != null)
+        {
+            sprt.enabled = !sprt.enabled; 
+        }
     }
 }
