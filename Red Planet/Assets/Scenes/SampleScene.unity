@@ -514,7 +514,7 @@ MonoBehaviour:
   itemReqNum2: 3
   itemReq3: 2
   itemReqNum3: 1
-  itemReq4: 5
+  itemReq4: 0
   itemReqNum4: 1
 --- !u!1 &127090745
 GameObject:
@@ -646,7 +646,6 @@ GameObject:
   m_Component:
   - component: {fileID: 260115325}
   - component: {fileID: 260115324}
-  - component: {fileID: 260115326}
   m_Layer: 0
   m_Name: Caves
   m_TagString: Untagged
@@ -717,26 +716,6 @@ Transform:
   m_Father: {fileID: 1129869003}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &260115326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260115323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933cf44a270fa4130828d8d7cebc52a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemReq1: 0
-  itemReqNum1: 0
-  itemReq2: 0
-  itemReqNum2: 0
-  itemReq3: 0
-  itemReqNum3: 0
-  itemReq4: 0
-  itemReqNum4: 0
 --- !u!1001 &276413244
 PrefabInstance:
   m_ObjectHideFlags: 0

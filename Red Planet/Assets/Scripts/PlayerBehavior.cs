@@ -86,7 +86,7 @@ public class PlayerBehavior : MonoBehaviour
         }
         if (sprt != null)
         {
-            sprt.enabled = !sprt.enabled; 
+            //sprt.enabled = !sprt.enabled; 
         }
     }
 }

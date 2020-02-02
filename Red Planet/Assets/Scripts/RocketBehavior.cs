@@ -43,19 +43,22 @@ public class RocketBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        takePlayerItems(); 
     }
 
 
     private void takePlayerItems()
     {
-        if (gm.getDistanceFromPlayer(gameObject) < gm.getItemPickupDistance())
+        if (gm.getDistanceFromPlayer(gameObject) < 10* gm.getItemPickupDistance())
         {
             foreach (KeyValuePair<ItemType, int> pair in repairPieces)
             {
-                if (gm.takeItemFromPlayer(pair.Key))
+                if (pair.Value > 0)
                 {
-
+                    if (gm.takeItemFromPlayer(pair.Key))
+                    {
+                        repairPieces[pair.Key] = pair.Value - 1;
+                    }
                 }
             }
         }
