@@ -53,7 +53,7 @@ public class RocketBehavior : MonoBehaviour
     {
         ItemType itemTypeRemoved = ItemType.NullType;
 
-        if (gm.getDistanceFromPlayer(gameObject) < gm.getItemPickupDistance())
+        if (gm.getDistanceFromPlayer(gameObject) < rocketItemPickupDistance)
         {
             foreach (KeyValuePair<ItemType, int> pair in repairPieces)
             {
