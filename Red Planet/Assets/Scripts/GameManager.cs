@@ -60,7 +60,24 @@ public class GameManager : MonoBehaviour
     }
 
 
+
     //getters and setters
+
+
+    //returns an arbirary nearby iten that the player can pick up
+    public GameObject getPlayerPickupItem()
+    {
+
+        foreach (GameObject itm in items)
+        {
+            if (itm.GetComponent<ItemBehavior>().playerCanPickup())
+            {
+                return itm;
+            }
+        }
+
+        return null;
+    }
 
     public float getDistanceFromPlayer(GameObject g)
     {
