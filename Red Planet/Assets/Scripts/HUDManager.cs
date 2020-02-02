@@ -39,18 +39,19 @@ public class HUDManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inventory.text = getInventoryList();
+        string invntString = getInventoryList();
+        inventory.text = "Inventory: " + (invntString != ""? invntString : "empty");
     }
 
 
     private string getInventoryList()
     {
         List<ItemType> items = playerBehavior.getInventory();
-
+        
         items.Sort();
 
         ItemType lastItem = ItemType.NullType;
-        string s = "Inventory: "; 
+        string s = ""; 
         int itemCount = 1;
 
         foreach (ItemType itm in items)
@@ -59,14 +60,20 @@ public class HUDManager : MonoBehaviour
             {
                 itemCount++;
             }
-            else
+            else if (lastItem != ItemType.NullType)
             {
-                s += itm;
-                s += ": " + itemCount + " "; 
+                s += lastItem; 
+                s += ": " + itemCount + ", "; 
                 itemCount = 1;
             }
-
+            
             lastItem = itm;
+        }
+
+        if (lastItem != ItemType.NullType)
+        {
+            s += lastItem;
+            s += ": " + itemCount;
         }
 
         return s;
