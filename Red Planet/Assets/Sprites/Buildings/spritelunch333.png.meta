@@ -1,0 +1,2059 @@
+fileFormatVersion: 2
+guid: a832b1a2cecbac34a898034860ee0c4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2214327684759035761
+    second: spritelunch333_0
+  - first:
+      213: -8279931632190125875
+    second: spritelunch333_1
+  - first:
+      213: 926114223100386132
+    second: spritelunch333_2
+  - first:
+      213: -6742217008714120365
+    second: spritelunch333_3
+  - first:
+      213: 5282013430123101817
+    second: spritelunch333_4
+  - first:
+      213: -771136880204372895
+    second: spritelunch333_5
+  - first:
+      213: 3017289688992655730
+    second: spritelunch333_6
+  - first:
+      213: -1700301754688170103
+    second: spritelunch333_7
+  - first:
+      213: -7112870121176025812
+    second: spritelunch333_8
+  - first:
+      213: -2818015601556088706
+    second: spritelunch333_9
+  - first:
+      213: -3109304984197064299
+    second: spritelunch333_10
+  - first:
+      213: -2707015810155094136
+    second: spritelunch333_11
+  - first:
+      213: -3104042221865329478
+    second: spritelunch333_12
+  - first:
+      213: -8674089749374465520
+    second: spritelunch333_13
+  - first:
+      213: -5454329256260717541
+    second: spritelunch333_14
+  - first:
+      213: 8880658380011890402
+    second: spritelunch333_15
+  - first:
+      213: -7960809232301181636
+    second: spritelunch333_16
+  - first:
+      213: 4524426108337523859
+    second: spritelunch333_17
+  - first:
+      213: -345324382841990433
+    second: spritelunch333_18
+  - first:
+      213: 4947477844133506195
+    second: spritelunch333_19
+  - first:
+      213: 8997950814849896198
+    second: spritelunch333_20
+  - first:
+      213: -426547310755374632
+    second: spritelunch333_21
+  - first:
+      213: -5176473679101159568
+    second: spritelunch333_22
+  - first:
+      213: -6927129426026095041
+    second: spritelunch333_23
+  - first:
+      213: 8116470176213784787
+    second: spritelunch333_24
+  - first:
+      213: -7890751095406610597
+    second: spritelunch333_25
+  - first:
+      213: -5602928202148241628
+    second: spritelunch333_26
+  - first:
+      213: -7741843630234244826
+    second: spritelunch333_27
+  - first:
+      213: 8990319702124088831
+    second: spritelunch333_28
+  - first:
+      213: 3811402178261593142
+    second: spritelunch333_29
+  - first:
+      213: -2573807804607403776
+    second: spritelunch333_30
+  - first:
+      213: -4161208590910909882
+    second: spritelunch333_31
+  - first:
+      213: 8198422248149154433
+    second: spritelunch333_32
+  - first:
+      213: 1866154629453524670
+    second: spritelunch333_33
+  - first:
+      213: 8544974872493521367
+    second: spritelunch333_34
+  - first:
+      213: -7341395150118727441
+    second: spritelunch333_35
+  - first:
+      213: 378981226562132968
+    second: spritelunch333_36
+  - first:
+      213: 1874284503626091458
+    second: spritelunch333_37
+  - first:
+      213: -3901495247174824613
+    second: spritelunch333_38
+  - first:
+      213: 8392995316932675975
+    second: spritelunch333_39
+  - first:
+      213: -6993927735083634292
+    second: spritelunch333_40
+  - first:
+      213: -8368220004896394456
+    second: spritelunch333_41
+  - first:
+      213: 8800077632446168602
+    second: spritelunch333_42
+  - first:
+      213: 7801031165190817891
+    second: spritelunch333_43
+  - first:
+      213: 6925699697612009618
+    second: spritelunch333_44
+  - first:
+      213: 3771040571205270130
+    second: spritelunch333_45
+  - first:
+      213: 2176202818352640290
+    second: spritelunch333_46
+  - first:
+      213: 1042674233211407156
+    second: spritelunch333_47
+  - first:
+      213: -2784390192803420888
+    second: spritelunch333_48
+  - first:
+      213: -8493247056071049005
+    second: spritelunch333_49
+  - first:
+      213: -5464684228680795501
+    second: spritelunch333_50
+  - first:
+      213: -6213046439238592046
+    second: spritelunch333_51
+  - first:
+      213: -8563238616161153976
+    second: spritelunch333_52
+  - first:
+      213: -1212940152056919420
+    second: spritelunch333_53
+  - first:
+      213: 8229914452420231908
+    second: spritelunch333_54
+  - first:
+      213: -998296106746876874
+    second: spritelunch333_55
+  - first:
+      213: 6287107792280308930
+    second: spritelunch333_56
+  - first:
+      213: 3992884098894080669
+    second: spritelunch333_57
+  - first:
+      213: -6673706849816816496
+    second: spritelunch333_58
+  - first:
+      213: 9216063045284923986
+    second: spritelunch333_59
+  - first:
+      213: 6058281098654735803
+    second: spritelunch333_60
+  - first:
+      213: -6353393684352348598
+    second: spritelunch333_61
+  - first:
+      213: -4317416391766312695
+    second: spritelunch333_62
+  - first:
+      213: -8655262705444818459
+    second: spritelunch333_63
+  - first:
+      213: -883435267175464470
+    second: spritelunch333_64
+  - first:
+      213: 8651463429303684683
+    second: spritelunch333_65
+  - first:
+      213: 7599827752598300993
+    second: spritelunch333_66
+  - first:
+      213: -2334736818312861300
+    second: spritelunch333_67
+  - first:
+      213: -8755497705523838810
+    second: spritelunch333_68
+  - first:
+      213: -6306516058379509818
+    second: spritelunch333_69
+  - first:
+      213: -2452325764350801966
+    second: spritelunch333_70
+  - first:
+      213: 4354512598451860735
+    second: spritelunch333_71
+  - first:
+      213: 4101036004005293086
+    second: spritelunch333_72
+  - first:
+      213: 8000785924453056654
+    second: spritelunch333_73
+  - first:
+      213: -1888690662452261125
+    second: spritelunch333_74
+  - first:
+      213: 6224567160342244819
+    second: spritelunch333_75
+  - first:
+      213: 5552275893183997954
+    second: spritelunch333_76
+  - first:
+      213: 876426645933550586
+    second: spritelunch333_77
+  - first:
+      213: 4173011046245819085
+    second: spritelunch333_78
+  - first:
+      213: -6706649593152542452
+    second: spritelunch333_79
+  - first:
+      213: 9074252272550421056
+    second: spritelunch333_80
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritelunch333_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6705c43ebd43942428d6b13bdfdba508
+      internalID: 2214327684759035761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e9bbddae26514b97fe1d59ffffded
+      internalID: -8279931632190125875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1049ae02c83529e439b8e90efbebf77a
+      internalID: 926114223100386132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_3
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cb64bce39527b48a0ee934e9caaa89
+      internalID: -6742217008714120365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_4
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e56655f8e844f443a04757e1a6a044b
+      internalID: 5282013430123101817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_5
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d8138b49cf873489a82811f94b4a06
+      internalID: -771136880204372895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_6
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836998e05343a9c42aa719d1e21823ae
+      internalID: 3017289688992655730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_7
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98889b48cc28e64183c335d03485ab7
+      internalID: -1700301754688170103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_8
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d452776c7eee744389a6dea26c77178
+      internalID: -7112870121176025812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_9
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776264946a721aa4189610c2c1a42b7b
+      internalID: -2818015601556088706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_10
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1760
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589fed25fdc8b0f409666fd81169b41b
+      internalID: -3109304984197064299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2430a32487b228f42a3a3e3caa5e5f07
+      internalID: -2707015810155094136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4161df16ece967148bfcdb516bf4f1e0
+      internalID: -3104042221865329478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe00270f5d29734a9bef532510fc111
+      internalID: -8674089749374465520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_14
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14e3c20cfe1e3428f9bb5bc242ef0f
+      internalID: -5454329256260717541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1a5a0866e6ae243982cb2f696f9052
+      internalID: 8880658380011890402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_16
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cac0c915d2289445ab6baada3c211b9
+      internalID: -7960809232301181636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_17
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5851a69f6619b3449279e4f3a5ae3e9
+      internalID: 4524426108337523859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_18
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1506e851d3aec2942bb1ec6170cff9dd
+      internalID: -345324382841990433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_19
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59327287a3825448978434b31d143a1
+      internalID: 4947477844133506195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_20
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2194b76d52884d448fdc4f792bdd37a
+      internalID: 8997950814849896198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_21
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1509
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01badc7c42472fd4aa29d7447c78ee15
+      internalID: -426547310755374632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47199fe7677d64b43a50bf88052dc561
+      internalID: -5176473679101159568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd54a29c82182b142809c081e0b16a90
+      internalID: -6927129426026095041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_24
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779a5f681790fe14f921d2b6ef5a42ed
+      internalID: 8116470176213784787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_25
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b454514310f5404c9f27ee1d0447e7e
+      internalID: -7890751095406610597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_26
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad908c434f4db644bae356419f01526
+      internalID: -5602928202148241628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_27
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef5803e6037874290a31af56d67a9c
+      internalID: -7741843630234244826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_28
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50967322521ebed4294ec240708f02be
+      internalID: 8990319702124088831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_29
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a784bd771044e74439e5dbf1cc9275a0
+      internalID: 3811402178261593142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_30
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c0c559e2b49ad49a29f3b67f8a3291
+      internalID: -2573807804607403776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_31
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af7817e66c7ad44a8c046920131eae1
+      internalID: -4161208590910909882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_32
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1258
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd51f03fea502447a2d2e4db6b3997e
+      internalID: 8198422248149154433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa64189ee2808243b7c9678dab0862d
+      internalID: 1866154629453524670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_34
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9869f2cee209049a6d72f704628cd6
+      internalID: 8544974872493521367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5692c609d79b6479950c2b22592aed
+      internalID: -7341395150118727441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_36
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315f10e22f4cdf745b135f91a56b4bca
+      internalID: 378981226562132968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_37
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb1baea3db83a845bbaf87fb0b03f44
+      internalID: 1874284503626091458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_38
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f9d6c871423d5419bf20235a713965
+      internalID: -3901495247174824613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_39
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259a2c5c317afd14091a4746931acdc9
+      internalID: 8392995316932675975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_40
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec5057c049e4948b267baa712d951f
+      internalID: -6993927735083634292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_41
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ebff13b203d0941be36e7a01bfda99
+      internalID: -8368220004896394456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_42
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bab4af1dcf8f441ac22bc820a04d4f
+      internalID: 8800077632446168602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_43
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1007
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdc32b4485c8044d88d70fc51dd1cff
+      internalID: 7801031165190817891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90d40b2d9d98e847a3b6086f3abe369
+      internalID: 6925699697612009618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_45
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb6388e87bdfd54998845aa1c85997d
+      internalID: 3771040571205270130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_46
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e0c834cb0e5bd43b3b389faf4939cb
+      internalID: 2176202818352640290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_47
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68b69199e9dfbd4fb711505d457eea7
+      internalID: 1042674233211407156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_48
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e1ad29e36bf9b4eb628ae3c1074cff
+      internalID: -2784390192803420888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_49
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8e535597373d24bbe7aa68b4a95bef
+      internalID: -8493247056071049005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_50
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818491a2f9d32f942884e884d2acc40a
+      internalID: -5464684228680795501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_51
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af91669fd16657499fea38a321ddbc3
+      internalID: -6213046439238592046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_52
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76dbf88c6d6e5948a078f8f00c3faa7
+      internalID: -8563238616161153976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_53
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef74bbc82575f94e877288d5c6b186d
+      internalID: -1212940152056919420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_54
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 756
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd5e9fa7c5b2c24aa61e599f1d4377e
+      internalID: 8229914452420231908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c84e982df774a4e984f546d042a8e6
+      internalID: -998296106746876874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_56
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e751cd8516d36648bc6359513feb42d
+      internalID: 6287107792280308930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_57
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb6a382012698541bd0e2eb48d37e86
+      internalID: 3992884098894080669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_58
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6271ef6a47084bc41ba5b110a7c3c768
+      internalID: -6673706849816816496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_59
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9262258d46255774db570420d5f596f4
+      internalID: 9216063045284923986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_60
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9db99dd2712c4418fd82359ece0588
+      internalID: 6058281098654735803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_61
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af62e057fe29f8649958a66cdce649a2
+      internalID: -6353393684352348598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_62
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3e462315fd2664cbd5e98f7abf94f1
+      internalID: -4317416391766312695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_63
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45f796e3d222b642af52e7d3a251d7d
+      internalID: -8655262705444818459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_64
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de0fdfa284a6ad409a6bfce4a3c62e4
+      internalID: -883435267175464470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_65
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 505
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4e4844a08d0694c8b69960df0894c5
+      internalID: 8651463429303684683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574693140b95c249b04fb91b3b762f9
+      internalID: 7599827752598300993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_67
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d27f92d9d1cbfd4ebc80e7a7f84ad58
+      internalID: -2334736818312861300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_68
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca7333f9ab5b494a8bebbb415335887
+      internalID: -8755497705523838810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_69
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d66f54fdca0564a94765db4e1c2d87
+      internalID: -6306516058379509818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_70
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc896f68b6c02d40a39fbcb8aa7c151
+      internalID: -2452325764350801966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_71
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110a58af27e5df347b151108423c0c3f
+      internalID: 4354512598451860735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_72
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536f32e3627d164f9a8cc51b3120c31
+      internalID: 4101036004005293086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_73
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f06949973be3594fb1177f214e05c75
+      internalID: 8000785924453056654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_74
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853d06c8c52752141a2d606ed69cc7b3
+      internalID: -1888690662452261125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_75
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e058100114ac1c4cbbbd78924f0f91b
+      internalID: 6224567160342244819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_76
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 254
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4438feff3a92a4ea90edc0e82eb976
+      internalID: 5552275893183997954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915e4d765a12e5d46a88f018fc0e5b96
+      internalID: 876426645933550586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_78
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 3
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ae7711f11fdf4ea302887b954f12c
+      internalID: 4173011046245819085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_79
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 3
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8293e65c8a2324644948c4648a71552e
+      internalID: -6706649593152542452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritelunch333_80
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 3
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3767448bb1dd89f4ca4cb4cf7a6ccfa2
+      internalID: 9074252272550421056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
