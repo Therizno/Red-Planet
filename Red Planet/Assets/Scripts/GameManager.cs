@@ -72,6 +72,16 @@ public class GameManager : MonoBehaviour
         return playerBehavior.destroyInventoryItemByEnum(itm);
     }
 
+    public void freezePlayer()
+    {
+        playerMovement.toggleFreeze();
+    }
+
+    public void teleportPlayer(Vector3 vect)
+    {
+        player.transform.position = vect;
+    }
+
 
 
     //getters and setters
@@ -103,6 +113,11 @@ public class GameManager : MonoBehaviour
     public bool isPlayerJumping()
     {
         return playerMovement.isJumping();
+    }
+
+    public bool isPlayerFrozen()
+    {
+        return playerMovement.isFrozen();
     }
 
     public float getPlayerSpeed()

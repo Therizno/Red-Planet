@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     private float timeSinceLand;
     private float moveSpeed;
 
+    private bool freezeMovement;
+
     //Start is called right after Awake, and is for interaction with other objects
     void Start()
     {
@@ -44,8 +46,14 @@ public class PlayerMovement : MonoBehaviour
         moveSpeed = movement.magnitude;
 
         //actually move the player
-        transform.Translate(movement);
-
+        if (!freezeMovement)
+        {
+            transform.Translate(movement);
+        }
+        else
+        {
+            moveSpeed = 0;
+        }
     }
 
 
@@ -93,6 +101,11 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
+    public void toggleFreeze()
+    {
+        freezeMovement = !freezeMovement;
+    }
+
     //setters and getters
     public bool isJumping()
     {
@@ -107,5 +120,10 @@ public class PlayerMovement : MonoBehaviour
     public float getJumpSpeed()
     {
         return jumpSpeed;
+    }
+
+    public bool isFrozen()
+    {
+        return freezeMovement;
     }
 }
