@@ -425,6 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 98445514}
   - component: {fileID: 98445513}
+  - component: {fileID: 98445515}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -495,6 +496,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &98445515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98445512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933cf44a270fa4130828d8d7cebc52a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemReq1: 3
+  itemReqNum1: 1
+  itemReq2: 1
+  itemReqNum2: 3
+  itemReq3: 2
+  itemReqNum3: 1
+  itemReq4: 5
+  itemReqNum4: 1
 --- !u!1 &127090745
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260115325}
   - component: {fileID: 260115324}
+  - component: {fileID: 260115326}
   m_Layer: 0
   m_Name: Caves
   m_TagString: Untagged
@@ -688,13 +710,33 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260115323}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.052, y: -14.895, z: 6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.774044, y: -11.402349, z: 150.7677}
   m_LocalScale: {x: 1.15115, y: 0.74481016, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1129869003}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &260115326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260115323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933cf44a270fa4130828d8d7cebc52a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemReq1: 0
+  itemReqNum1: 0
+  itemReq2: 0
+  itemReqNum2: 0
+  itemReq3: 0
+  itemReqNum3: 0
+  itemReq4: 0
+  itemReqNum4: 0
 --- !u!1001 &276413244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2133,6 +2175,9 @@ Transform:
   - {fileID: 59686260}
   - {fileID: 1544364203}
   - {fileID: 1966001396}
+  - {fileID: 1760031714}
+  - {fileID: 1930633600}
+  - {fileID: 260115325}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2602,7 +2647,7 @@ Transform:
   - {fileID: 1807585844}
   - {fileID: 1338739956}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1544364201
 GameObject:
@@ -2853,12 +2898,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760031712}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.93, y: 1.581, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.207956, y: 5.0736513, z: 144.7677}
   m_LocalScale: {x: 4.2269473, y: 2.1011946, z: 2.2857862}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1129869003}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1760031715
 BoxCollider2D:
@@ -3215,7 +3260,7 @@ GameObject:
   - component: {fileID: 1930633599}
   - component: {fileID: 1930633598}
   m_Layer: 0
-  m_Name: Rock (1)
+  m_Name: Rock 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3303,12 +3348,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930633597}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 43.79, y: 1.64, z: 0}
-  m_LocalScale: {x: 2.0370338, y: 3.8478937, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 47.512043, y: 5.1326513, z: 144.7677}
+  m_LocalScale: {x: 2.0370347, y: 3.8478956, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1129869003}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1966001395
 GameObject:

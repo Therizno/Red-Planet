@@ -61,6 +61,11 @@ public class GameManager : MonoBehaviour
         items.Add(g);
     }
 
+    public bool takeItemFromPlayer(ItemType itm)
+    {
+        return playerBehavior.destroyInventoryItemByEnum(itm);
+    }
+
 
 
     //getters and setters
@@ -125,5 +130,5 @@ public class GameManager : MonoBehaviour
 
 public enum ItemType
 {
-    Bucket, Junk, Fuel, Thruster, Wrench 
+    Bucket, Junk, Fuel, Thruster, Wrench, RoverSensor 
 }
