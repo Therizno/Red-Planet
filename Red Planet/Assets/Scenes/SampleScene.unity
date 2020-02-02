@@ -508,6 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933cf44a270fa4130828d8d7cebc52a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rocketItemPickupDistance: 10
   itemReq1: 3
   itemReqNum1: 1
   itemReq2: 1

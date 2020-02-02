@@ -6,6 +6,8 @@ public class RocketBehavior : MonoBehaviour
 {
     private GameManager gm;
 
+    [SerializeField] private float rocketItemPickupDistance;
+
 
     [SerializeField] private ItemType itemReq1;
     [SerializeField] private int itemReqNum1;
