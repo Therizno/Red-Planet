@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private float itemPickupDistance;
+
     [SerializeField] private GameObject player;
+
+
+    private List<GameObject> items;
 
     private PlayerMovement playerMovement;
     private PlayerBehavior playerBehavior;
@@ -47,12 +52,15 @@ public class GameManager : MonoBehaviour
     }
 
 
-    //getters and setters
 
-    public void addToPlayerInventory(GameObject item)
+    //call every time an item is spawned
+    public void addNewItem(GameObject g)
     {
-        playerBehavior.addToInventory(item);
+        items.Add(g);
     }
+
+
+    //getters and setters
 
     public float getDistanceFromPlayer(GameObject g)
     {
@@ -88,5 +96,10 @@ public class GameManager : MonoBehaviour
     public float getPlayerZ()
     {
         return player.transform.position.z;
+    }
+
+    public float getItemPickupDistance()
+    {
+        return itemPickupDistance;
     }
 }
