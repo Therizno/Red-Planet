@@ -86,7 +86,19 @@ public class PlayerBehavior : MonoBehaviour
         }
         if (sprt != null)
         {
-            //sprt.enabled = !sprt.enabled; 
+            sprt.enabled = !sprt.enabled; 
         }
+    }
+
+    public List<ItemType> getInventory()
+    {
+        List<ItemType> li = new List<ItemType>();
+
+        foreach (GameObject g in inventoryItems)
+        {
+            li.Add(g.GetComponent<ItemBehavior>().getItemType()); 
+        }
+
+        return li;
     }
 }
