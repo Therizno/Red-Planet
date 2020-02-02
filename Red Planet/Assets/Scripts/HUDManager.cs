@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class HUDManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class HUDManager : MonoBehaviour
     [SerializeField] string inventoryHUDObjectName;
 
 
-    private TextMesh inventory;
+    private TMP_Text inventory;
 
     private PlayerBehavior playerBehavior;
 
@@ -29,16 +30,18 @@ public class HUDManager : MonoBehaviour
         {
             if (child.gameObject.name == inventoryHUDObjectName)
             {
-                inventory = child.gameObject.GetComponent<TextMesh>();
+                inventory = child.gameObject.GetComponent<TMP_Text>();
             }
         }
     }
 
+
     // Update is called once per frame
     void Update()
     {
-        
+        inventory.text = getInventoryList();
     }
+
 
     private string getInventoryList()
     {
@@ -47,7 +50,7 @@ public class HUDManager : MonoBehaviour
         items.Sort();
 
         ItemType lastItem = ItemType.NullType;
-        string s = "";
+        string s = "Inventory: "; 
         int itemCount = 1;
 
         foreach (ItemType itm in items)
