@@ -50,6 +50,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (inventoryItems.Remove(g))
         {
+            gm.removeItem(g);
             Destroy(g);
             return true;
         }
@@ -59,15 +60,24 @@ public class PlayerBehavior : MonoBehaviour
 
     public bool destroyInventoryItemByEnum(ItemType itm)
     {
+        GameObject destroyItem = null;
+
+        //find the item to destroy 
         foreach (GameObject g in inventoryItems)
         {
             if (g.GetComponent<ItemBehavior>().getItemType() == itm)
             {
-                return destroyInventoryItem(g); 
+                destroyItem = g;
             }
         }
 
-        return false; 
+        //destroy the item
+        if (destroyItem != null)
+        {
+            return destroyInventoryItem(destroyItem);
+        }
+
+        return false;
     }
 
     private void toggleItemEnabled(GameObject g)

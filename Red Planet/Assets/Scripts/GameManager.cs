@@ -61,6 +61,12 @@ public class GameManager : MonoBehaviour
         items.Add(g);
     }
 
+    //call every time an item is removed 
+    public void removeItem(GameObject g)
+    {
+        items.Remove(g); 
+    }
+
     public bool takeItemFromPlayer(ItemType itm)
     {
         return playerBehavior.destroyInventoryItemByEnum(itm);
