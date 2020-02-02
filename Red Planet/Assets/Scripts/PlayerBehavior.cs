@@ -44,7 +44,30 @@ public class PlayerBehavior : MonoBehaviour
         item.transform.parent = transform;
 
         toggleItemEnabled(item);
+    }
 
+    public bool destroyInventoryItem(GameObject g)
+    {
+        if (inventoryItems.Remove(g))
+        {
+            Destroy(g);
+            return true;
+        }
+
+        return false;
+    }
+
+    public bool destroyInventoryItemByEnum(ItemType itm)
+    {
+        foreach (GameObject g in inventoryItems)
+        {
+            if (g.GetComponent<ItemBehavior>().getItemType() == itm)
+            {
+                return destroyInventoryItem(g); 
+            }
+        }
+
+        return false; 
     }
 
     private void toggleItemEnabled(GameObject g)

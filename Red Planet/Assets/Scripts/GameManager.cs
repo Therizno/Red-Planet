@@ -122,3 +122,8 @@ public class GameManager : MonoBehaviour
         return itemPickupDistance;
     }
 }
+
+public enum ItemType
+{
+    Bucket, Junk, Fuel, Thruster, Wrench 
+}

@@ -1248,7 +1248,7 @@ PrefabInstance:
     - target: {fileID: 6557519877604831872, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_Name
-      value: Ledge (1)
+      value: Ledge 6
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
@@ -1666,7 +1666,7 @@ PrefabInstance:
     - target: {fileID: 6557519877604831872, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_Name
-      value: Ledge 2 (2)
+      value: Ledge 4
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
@@ -1746,17 +1746,17 @@ PrefabInstance:
     - target: {fileID: 6557519877604831872, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_Name
-      value: Ledge
+      value: Ledge 5
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.023233
+      value: 9.087
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.723374
+      value: -8.23
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
@@ -1806,7 +1806,7 @@ PrefabInstance:
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2145
+      value: 0.241956
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831877, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
@@ -2278,6 +2278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c02507ae47b3b4456a2b683656f9443e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemName: Bucket
 --- !u!1 &1409551621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2491,7 +2492,7 @@ PrefabInstance:
     - target: {fileID: 6557519877604831872, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_Name
-      value: Ledge 2 (1)
+      value: Ledge 3
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
@@ -2920,6 +2921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c02507ae47b3b4456a2b683656f9443e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemName: Bucket
 --- !u!1 &1856137839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,7 +3274,7 @@ PrefabInstance:
     - target: {fileID: 6557519877604831872, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}
       propertyPath: m_Name
-      value: Ledge
+      value: Ledge 1
       objectReference: {fileID: 0}
     - target: {fileID: 6557519877604831878, guid: 24818c64a98b8476285a5465548357dd,
         type: 3}

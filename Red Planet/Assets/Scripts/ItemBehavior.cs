@@ -6,6 +6,8 @@ public class ItemBehavior : MonoBehaviour
 {
     private GameManager gm;
 
+    [SerializeField] private ItemType itemType;
+
     private bool isPlayerCarrying;
     private bool isPlayerNearby;
 
@@ -34,5 +36,12 @@ public class ItemBehavior : MonoBehaviour
     public void toggleCarrying()
     {
         isPlayerCarrying = !isPlayerCarrying;
+    }
+
+
+    //setters and getters
+    public ItemType getItemType()
+    {
+        return itemType;
     }
 }
