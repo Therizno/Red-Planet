@@ -130,5 +130,5 @@ public class GameManager : MonoBehaviour
 
 public enum ItemType
 {
-    Bucket, Junk, Fuel, Thruster, Wrench, RoverSensor 
+    Bucket, Junk, Fuel, Thruster, Wrench, RoverSensor, NullType
 }

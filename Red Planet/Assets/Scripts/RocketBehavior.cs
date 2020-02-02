@@ -49,7 +49,9 @@ public class RocketBehavior : MonoBehaviour
 
     private void takePlayerItems()
     {
-        if (gm.getDistanceFromPlayer(gameObject) < 10* gm.getItemPickupDistance())
+        ItemType itemTypeRemoved = ItemType.NullType;
+
+        if (gm.getDistanceFromPlayer(gameObject) < gm.getItemPickupDistance())
         {
             foreach (KeyValuePair<ItemType, int> pair in repairPieces)
             {
@@ -57,10 +59,17 @@ public class RocketBehavior : MonoBehaviour
                 {
                     if (gm.takeItemFromPlayer(pair.Key))
                     {
-                        repairPieces[pair.Key] = pair.Value - 1;
+                        itemTypeRemoved = pair.Key;
+                        break;
                     }
                 }
             }
         }
+
+        if (itemTypeRemoved != ItemType.NullType)
+        {
+            repairPieces[itemTypeRemoved]--; 
+        }
+        
     }
 }
